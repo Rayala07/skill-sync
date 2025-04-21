@@ -1,0 +1,29 @@
+.skill-card{
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #333;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover{
+    transform: scale(1.05);
+}
+
+.beginner{
+    background-color: #fff3cd;
+    border-left: 6px solid #ffcc00;
+}
+
+.intermediate{
+    background-color: #d4edda;
+    border-left: 6px solid #17a2b8;
+}
+
+.advanced{
+    background-color: #d4edda;
+    border-left: 6px solid #28a745;
+}
